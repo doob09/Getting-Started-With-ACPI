@@ -30,7 +30,7 @@ What are all these options?:
 * `1. FixHPET    - Patch out IRQ Conflicts`
   * IRQ patching, mainly needed for X79, X99 and laptop users(use option `C` to omit conflicting legacy IRQs)
 * `2. FakeEC     - OS-aware Fake EC`
-  * This is the SSDT-EC, required for Catalina users
+  * This is the SSDT-EC, it is required 
 * `3. FakeEC Laptop  - OS-aware Fake EC`
   * This is the SSDT-EC, but the laptop version only Builds Fake EC and leaves the existing EC devices untouched, again required for Catalina users
 * `4. PluginType - Sets plugin-type = 1 on First ProcessorObj`
